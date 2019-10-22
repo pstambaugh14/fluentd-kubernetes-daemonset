@@ -15,4 +15,5 @@ gem "fluent-plugin-rewrite-tag-filter", "~> 2.2.0"
 gem "fluent-plugin-kubernetes_metadata_filter", "~> 2.3.0"
 gem "ffi"
 gem "fluent-plugin-systemd", "~> 1.0.1"
-gem "fluent-plugin-redis-store"
+gem "fluent-plugin-redis-store",
+gem "fluent-plugin-redis"	

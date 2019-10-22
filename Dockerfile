@@ -38,7 +38,7 @@ COPY ./conf/prometheus.conf /fluentd/etc/
 RUN touch /fluentd/etc/disable.conf
 
 # Copy plugins
-COPY plugins /fluentd/plugins/
+COPY plugins2 /fluentd/plugins/
 COPY entrypoint.sh /fluentd/entrypoint.sh
 
 # Environment variables

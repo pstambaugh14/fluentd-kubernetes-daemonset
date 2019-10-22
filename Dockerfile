@@ -37,8 +37,10 @@ COPY ./conf/kubernetes.conf /fluentd/etc/
 COPY ./conf/prometheus.conf /fluentd/etc/
 RUN touch /fluentd/etc/disable.conf
 
+
 # Copy plugins
 COPY plugins2 /fluentd/plugins/
+COPY plugins /fluentd/plugins 
 COPY entrypoint.sh /fluentd/entrypoint.sh
 
 # Environment variables

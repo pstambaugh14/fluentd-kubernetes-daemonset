@@ -17,7 +17,7 @@
 
 <match **>
 #<match pattern>
-  @type tcp
+  @type forward
   host "#{ENV['FLUENT_FOWARD_HOST']}" #redis.kube-logging.svc.cluster.local
   port "#{ENV['FLUENT_FOWARD_PORT']}" #6379
   db_number 0

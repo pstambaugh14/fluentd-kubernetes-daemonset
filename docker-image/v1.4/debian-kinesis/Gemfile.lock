@@ -807,7 +807,7 @@ GEM
       tzinfo (~> 1.0)
       tzinfo-data (~> 1.0)
       yajl-ruby (~> 1.0)
-    google-protobuf (3.8.0)
+    google-protobuf (3.19.4)
     http (0.9.8)
       addressable (~> 2.3)
       http-cookie (~> 1.0)

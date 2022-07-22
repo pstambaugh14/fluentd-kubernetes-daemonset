@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/graylog-labs/gelf-rb.git
-  revision: de1cb44ea9c35687d725749a88763981d9d0d89e
-  specs:
-    gelf (3.0.0)
-      json
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,6 +35,8 @@ GEM
       tzinfo (~> 1.0)
       tzinfo-data (~> 1.0)
       yajl-ruby (~> 1.0)
+    gelf (3.1.0)
+      json
     http (0.9.8)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -53,7 +48,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
-    json (2.1.0)
+    json (2.6.2)
     kubeclient (1.1.4)
       activesupport
       http (= 0.9.8)
@@ -80,7 +75,7 @@ GEM
     systemd-journal (1.3.1)
       ffi (~> 1.9)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.5)
       tzinfo (>= 1.0.0)
@@ -98,7 +93,7 @@ DEPENDENCIES
   fluent-plugin-kubernetes_metadata_filter
   fluent-plugin-systemd
   fluentd (= 1.1.3)
-  gelf!
+  gelf
   oj (= 3.5.1)
 
 BUNDLED WITH
